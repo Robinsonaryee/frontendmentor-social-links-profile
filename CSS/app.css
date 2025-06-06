@@ -66,23 +66,24 @@ body {
     height: 40px;
     border: none;
     border-radius: 8px;
-    color: hsl(0, 0%, 100%);
     text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.card a  {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%) ;
 }
 .card:hover {
-     background-color: hsl(75, 94%, 57%);
+    background-color:hsl(75, 94%, 57%) ;
+    
+}
+.card:hover a {
      color: hsl(0, 0%, 8%);
 }
-
-.social-link {
-    text-decoration: none;
-    font-size: 14px;
-    color:hsl(0, 0%, 100%) ;
-    font-weight: 400;
-}
+ 
 .attribution {
-     background-color: hsl(0, 0%, 8%);
-    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(0, 0%, 8%);
     text-align: center;
 }
 .attribution a {
